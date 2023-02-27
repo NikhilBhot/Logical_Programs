@@ -35,9 +35,22 @@
                 the number is divided greater than 1 and divided by 1 or itself is referred to as the Prime
                 number. 0 and 1 are not counted as prime numbers. All the even numbers can be
                 divided by 2, so 2 is the only even prime minister.
-            */
+                
+                PrimeNumber.primeNumber();
+             */
 
-            PrimeNumber.primeNumber();
+            /*
+             In C#, we can reverse a number either by using for loop, while loop, or using recursion.
+             The simplest way to reverse a number is by using for loop or while loop. In order to
+             reverse a number, we have to follow the following steps:
+             a. We need to calculate the remainder of the number using the modulo
+             b. After that, we need to multiply the variable reverse by 10 and add the remainder into it.
+             c. We then divide the number by 10 and repeat steps until the number becomes 0.
+             */
+
+            ReverseNumber.reverseNumber();
+
+
         }
     }
 }
