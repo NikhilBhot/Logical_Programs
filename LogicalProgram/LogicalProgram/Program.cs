@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To Logical Programmin");
+            Console.WriteLine("Welcome To Logical Programming");
 
             //Program-1-FibonacciSeries
             /*
@@ -46,9 +46,21 @@
              a. We need to calculate the remainder of the number using the modulo
              b. After that, we need to multiply the variable reverse by 10 and add the remainder into it.
              c. We then divide the number by 10 and repeat steps until the number becomes 0.
+             
+             ReverseNumber.reverseNumber();
              */
 
-            ReverseNumber.reverseNumber();
+            /*
+             * a. Desc -> Write a Stopwatch Program for measuring the time that elapses between
+               the start and end clicks
+               b. I/P -> Start the Stopwatch and End the Stopwatch
+               c. Logic -> Measure the elapsed time between start and end
+               d. O/P -> Print the elapsed time.
+             */
+
+            SimulateStopwatch.simulateStopwatch();
+
+
 
 
         }
